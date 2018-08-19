@@ -6,4 +6,6 @@
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="signup_back_title">#D6E7FF</color>
+
 </resources>
