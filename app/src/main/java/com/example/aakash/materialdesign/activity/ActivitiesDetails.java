@@ -1,12 +1,16 @@
 package com.example.aakash.materialdesign.activity;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Layout;
 import android.util.Log;
 import android.view.View;
 import android.webkit.WebSettings;
@@ -34,6 +38,8 @@ public class ActivitiesDetails extends AppCompatActivity {
     DetailsAdapter detailsAdapter;
     Button morebtn;
 
+    @TargetApi(Build.VERSION_CODES.O)
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,6 +96,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
     protected class Activities {
 
+        @RequiresApi(api = Build.VERSION_CODES.O)
         public void Music() {
             webView.setVisibility(View.VISIBLE);
             imageView.setVisibility(View.GONE);
@@ -108,6 +115,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.music_title);
             textView.setText(R.string.music_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -128,6 +136,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.O)
         public void Dance() {
             webView.setVisibility(View.VISIBLE);
             imageView.setVisibility(View.GONE);
@@ -146,6 +155,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.dance_title);
             textView.setText(R.string.dance_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -167,6 +177,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.O)
         public void Sports() {
             webView.setVisibility(View.VISIBLE);
             imageView.setVisibility(View.GONE);
@@ -185,6 +196,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.sports_title);
             textView.setText(R.string.music_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -206,6 +218,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.O)
         public void Camps() {
             webView.setVisibility(View.VISIBLE);
             imageView.setVisibility(View.GONE);
@@ -224,6 +237,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.camp_title);
             textView.setText(R.string.camp_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -245,6 +259,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.O)
         public void Adult() {
             webView.setVisibility(View.VISIBLE);
             imageView.setVisibility(View.GONE);
@@ -263,6 +278,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.adult_title);
             textView.setText(R.string.adult_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -301,6 +317,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.art_craft_title);
             textView.setText(R.string.art_craft_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -341,6 +358,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.fitness_title);
             textView.setText(R.string.fitness_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -403,6 +421,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.O)
         public void Aquatic(){
             webView.setVisibility(View.GONE);
             imageView.setVisibility(View.VISIBLE);
@@ -422,6 +441,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.aquatic_title);
             textView.setText(R.string.Aquatic_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -444,6 +464,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.O)
         public void preschool(){
             webView.setVisibility(View.GONE);
             imageView.setVisibility(View.VISIBLE);
@@ -463,6 +484,7 @@ public class ActivitiesDetails extends AppCompatActivity {
 
             textView1.setText(R.string.preschool_title);
             textView.setText(R.string.preschool_desc);
+            textView.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
 
             morebtn.setOnClickListener(new View.OnClickListener() {
                 @Override

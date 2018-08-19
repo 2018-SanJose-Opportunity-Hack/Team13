@@ -13,7 +13,7 @@
             android:id="@+id/freeregtitle"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/signup_back_title"
+            android:background="@color/colorPrimary"
             android:gravity="center">
 
             <TextView
@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/windowBackground"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -56,7 +56,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/activity_details_relative"
-            android:layout_marginStart="@dimen/ten_dp"
+            android:layout_marginStart="@dimen/fifteen_dp"
+            android:layout_marginEnd="@dimen/fifteen_dp"
             android:layout_marginTop="@dimen/twenty_dp"
             android:gravity="fill_horizontal|fill_vertical"
             android:textSize="@dimen/largest_font"
@@ -72,11 +73,13 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="3dp"
             android:layout_below="@+id/activity_details_rv"
             android:layout_centerHorizontal="true"
             android:background="@drawable/button_design"
             android:id="@+id/btnmoreclasses"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:layout_marginEnd="@dimen/ten_dp"
             android:text="More Classes"
             android:textColor="#fff" />
 

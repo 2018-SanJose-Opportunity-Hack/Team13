@@ -41,7 +41,7 @@
                         android:text="Class Title"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        android:textColor="@color/colorPrimary"/>
+                        android:textColor="@color/textColorPrimary"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
                             android:paddingTop="5dp"
                             android:text="August 19 - 3:30 pm"
                             android:textSize="15sp"
-                            android:textColor="@color/colorPrimary"/>
+                            android:textColor="@color/textColorPrimary"/>
 
 
 
@@ -99,7 +99,7 @@
                                 android:layout_marginLeft="20.0dip"
                                 android:text="Class Number"
                                 android:textSize="12sp"
-                                android:textColor="@color/colorPrimary"/>
+                                android:textColor="@color/textColorPrimary"/>
 
                             <TextView
                                 android:id="@+id/class_id"
@@ -108,7 +108,7 @@
                                 android:layout_marginLeft="20.0dip"
                                 android:layout_marginTop="4.0dip"
                                 android:text="0123456"
-                                android:textColor="@color/colorPrimary"
+                                android:textColor="@color/textColorPrimary"
                                 android:textSize="14sp" />
 
                             <TextView
@@ -118,7 +118,7 @@
                                 android:layout_marginTop="@dimen/fifteen_dp"
                                 android:text= "Location"
                                 android:textSize="12sp"
-                                android:textColor="@color/colorPrimary"/>
+                                android:textColor="@color/textColorPrimary"/>
 
                             <TextView
                                 android:id="@+id/class_location"
@@ -127,7 +127,7 @@
                                 android:layout_marginLeft="20.0dip"
                                 android:layout_marginTop="4.0dip"
                                 android:text="San Jose"
-                                android:textColor="@color/colorPrimary"
+                                android:textColor="@color/textColorPrimary"
                                 android:textSize="14sp" />
 
 
@@ -146,7 +146,8 @@
                     android:textSize="18sp"
                     android:layout_gravity="center"
                     android:text="Register"
-                    android:textColor="@color/colorPrimary"/>
+                    android:textColor="@color/windowBackground"
+                    android:background="#ff7009"/>
 
             </LinearLayout>
 

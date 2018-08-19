@@ -10,6 +10,9 @@
     <string name="nav_item_notification">About Us</string>
     <string name="nav_item_contact_us">Contact Us</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">\
         <item>@string/nav_item_home</item>
@@ -24,7 +27,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="music_desc">Make Music San Jose is open to anyone who wants to take part. The spirit of the day is that of a holiday: people getting together in their neighborhoods, creating their own musical events in a do-it-yourself fashion.</string>    <string name="music_title">MUSIC</string>
+    <string name="music_desc">Make Music San Jose is open to anyone who wants to take part. The spirit of the day is that of a holiday: people getting together in their neighborhoods, creating their own musical events in a do-it-yourself fashion.</string>
+    <string name="music_title">MUSIC</string>
     <string name="dance_desc">CityDance San Jose is an evening of socializing, music and open-air dancing at the Plaza de Cesar Chavez.  With live bands and a professional dance instructor teach the fine points of the evening dance styles, you can tune your skills, learn something new, or just show off! The event is open and free to the public.</string>
     <string name="dance_title">DANCE</string>
     <string name="camp_desc"><![CDATA[Your child can participate in healthy physical activities, games, arts and crafts, and educational programming including Camp San José, F.I.T. Camp, and other specialty summer camps. Locations include Community Centers, Emma Prusch Park, and Happy Hollow Park & Zoo]]></string>
@@ -42,4 +46,10 @@
     <string name="preschool_desc">Children will be introduced to socialization, positive self-esteem, following directions and simple learning concepts. Children will work on hand eye coordination, motor skills, while gaining independence through the use of circle time, music, songs.</string>
     <string name="preschool_title">PRESCHOOL</string>
     <string name="sports_title">SPORTS</string>
+    <string name="introduction">The City of San José Department of PRNS is intended to be identifiable focal points and activity centers for surrounding groups of residential neighborhoods, serving a population of San Jose.</string>
+    <string name="introduction_1"><h2>Why Community centre ?</h2></string>
+    <string name="introduction_2">-> More than half of all Americans agree that recreation centers should offer healthy living classes. \n-> Nearly half of all Americans agree older adult programming should be offered at recreation centers. \n
+        -> 42 percent of baby boomers support recreation centers providing health clinic services. \n</string>
+    <string name="about_us">The mission of the Department of Parks, Recreation and Neighborhood Services (PRNS) is to build healthy communities through people, parks and programs. PRNS provides a diverse variety of programs that impact the lives of children, youth, adults, seniors, and people with disabilities throughout the City. PRNS strives to build community through fun, and make and activate quality places in San José where people want to live, work, play, and learn. PRNS has a rich history and was established in the 1940’s. Here are highlights of our community center throughout San JOse.</string>
+    <string name="san_jose_parks_recreation_neighbourhood_services"><![CDATA[San Jose Parks, Recreation & Neighbourhood Services]]></string>
 </resources>
