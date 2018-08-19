@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/ten_dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/list_activities_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/ten_dp"
+        app:cardElevation="@dimen/ten_dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/list_activities_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_fifty_dp"
+            android:scaleType="fitXY"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/list_activities_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_activities_cv"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="@dimen/largest_font"/>
+
+</RelativeLayout>

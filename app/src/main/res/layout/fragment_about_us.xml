@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/twenty_dp">
+
+
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fifteen_dp"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:src="@drawable/about_us"/>
+
+
+
+    <TextView
+        android:id="@+id/vision_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Vision : "
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/thirty_dp"
+        android:textSize="@dimen/very_largest_font"
+        android:layout_below="@id/logo_main"
+        />
+
+    <TextView
+        android:id="@+id/vision_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To be a National leader of Parks and Recreation in cultivating healthy communities through quality programs and dynamic public spaces. "
+        android:textStyle="italic"
+        android:layout_marginTop="@dimen/fifteen_dp"
+        android:textSize="@dimen/largest_font"
+        android:layout_below="@id/vision_tv"
+        />
+
+        <TextView
+            android:id="@+id/vision_tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us"
+            android:textColor="@color/textColorPrimary"
+            android:layout_below="@id/vision_tv_1"
+            android:textSize="@dimen/large_font"
+            android:layout_marginTop="@dimen/thirty_dp"/>
+
+
+
+
+</RelativeLayout>
