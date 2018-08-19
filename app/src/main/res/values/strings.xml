@@ -5,21 +5,41 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 
-    <string name="nav_item_home">Home</string>
-    <string name="nav_item_friends">Friends</string>
-    <string name="nav_item_notification">Messages</string>
+    <string name="nav_item_home">Profile</string>
+    <string name="nav_item_friends">Activities</string>
+    <string name="nav_item_notification">About Us</string>
+    <string name="nav_item_contact_us">Contact Us</string>
 
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">\
         <item>@string/nav_item_home</item>
         <item>@string/nav_item_friends</item>
         <item>@string/nav_item_notification</item>
+        <item>@string/nav_item_contact_us</item>
     </string-array>
 
-    <string name="title_messages">Messages</string>
-    <string name="title_friends">Friends</string>
-    <string name="title_home">Home</string>
+    <string name="title_messages">Activities</string>
+    <string name="title_friends">Activities</string>
+    <string name="title_home">Profile</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="music_desc">Make Music San Jose is open to anyone who wants to take part. The spirit of the day is that of a holiday: people getting together in their neighborhoods, creating their own musical events in a do-it-yourself fashion.</string>    <string name="music_title">MUSIC</string>
+    <string name="dance_desc">CityDance San Jose is an evening of socializing, music and open-air dancing at the Plaza de Cesar Chavez.  With live bands and a professional dance instructor teach the fine points of the evening dance styles, you can tune your skills, learn something new, or just show off! The event is open and free to the public.</string>
+    <string name="dance_title">DANCE</string>
+    <string name="camp_desc"><![CDATA[Your child can participate in healthy physical activities, games, arts and crafts, and educational programming including Camp San José, F.I.T. Camp, and other specialty summer camps. Locations include Community Centers, Emma Prusch Park, and Happy Hollow Park & Zoo]]></string>
+    <string name="camp_title">CAMP</string>
+    <string name="adult_desc">If you are looking for a more casual setting and the ability to interact with people who have similar interests, the programs for active adults offer a wide range of possibilities</string>
+    <string name="adult_title">ADULT ACTIVITY</string>
+    <string name="art_craft_desc">The arts and culture are essential elements in the character and quality of life in the vibrant San José community.As the largest city in northern California and the capital of Silicon Valley, San José is the hub of a wide array of arts and cultural opportunities.</string>
+    <string name="art_craft_title">ART AND CRAFT</string>
+    <string name="fitness_desc">Get fit with our fitness programs! Sign up for a membership or drop-in to access our fitness rooms, featuring cardio and strength training equipment, as well as drop-in gym activities like basketball and volleyball.</string>
+    <string name="fitness_title">FITNESS</string>
+    <string name="therapeutics_desc">Our programs aim to enhance independence, improve social skills, increase self-esteem, connect people and families with community resources, provide opportunities to contribute to society and promote community integration</string>
+    <string name="therapeutics_title">THERAPEUTICS</string>
+    <string name="Aquatic_desc">The City of San José offers swimming opportunities at Camden Pool, Mayfair Pool, and Rotary Ryland Pool and also  created unique partnerships with local organizations at Alviso Pool, Biebrach Pool, and Fair Swim Center.</string>
+    <string name="aquatic_title">AQUATICS</string>
+    <string name="preschool_desc">Children will be introduced to socialization, positive self-esteem, following directions and simple learning concepts. Children will work on hand eye coordination, motor skills, while gaining independence through the use of circle time, music, songs.</string>
+    <string name="preschool_title">PRESCHOOL</string>
+    <string name="sports_title">SPORTS</string>
 </resources>
